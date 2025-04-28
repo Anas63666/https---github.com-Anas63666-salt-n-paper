@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@font-face {
+  font-family: futurak;
+  src: url(./assets/futurak\ \(1\).ttf);
+}
+
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --black: #000000;
+  --red: #ed1c24;
+  --white: #ffffff;
+  --text: #ffffffb3;
+}
+
+
+
+
+
+
+
+body{
+    background-color: black;
+}
+#img{
+    width: 165px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#m{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    font-size: larger;
+}
+#img1{
+    width: 165px;
+}
+#button1{
+
+width: 102.86px;
+}
+#img2{
+    width: 100%;
+}
+
+#par{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    
+}
+#par1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--text);
+    text-align: center;
+}
+#h2{
+    color: white;
+    text-align: center;
+}
+#pic1{
+    background-color: #ffff;
+}
+
+#card1{
+  background-color: #ffff;
+}
+
+
+
+#card2{
+  background-color: #ffff;
+}
+#card3{
+  background-color: #ffff;
+}
+#card4{
+  background-color: #ffff;
+}
+
+#divbtn{
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+
+#hamburger{
+  display: none;
+}
+
+
+
+
+
+#main-conatiner{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 30px;
+
+}
+
+
+
+#brands-conatiner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+
+
+
+
+
+
+#maindiv{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+
+
+.brand-image{
+  background-color: var(--white);
+  width: 260px;
+  height: 140px;
+  display: flex;
+  border-radius: 10px;
+}
+
+#Salt{
+  color: var(--white);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 200;
+  font-family: 'Apercu Pro', sans-serif;
+  margin-top: 50px
+
+  
+}
+#paper{
+  font-family: futurak;
+  font-weight: lighter;
+  font-size: 52px}
+
+#resturent{
+  font-size: 32px;
+  font-weight: 200;
+  font-family:  'Apercu Pro', sans-serif;
+  margin-top: 20px;
+  color: var(--white);
+}
+
+#addres-isl{
+  font-size: 16px;
+  font-weight: 546;
+  font-family:  'Apercu Pro', sans-serif;
+  margin-top: 20px;
+  color: var(--white);
+}
+
+#phone-isl{
+  font-size: 16px;
+  font-weight: 546;
+  font-family:  'Apercu Pro', sans-serif;
+  margin-top: 20px;
+  color: var(--white);
+}
+
+#Direction-btn{
+  margin-top: 20px;
+  padding: 15px 50px;
+  border-radius: 15px;
+  color: var(--white);
+  background-color: transparent;
+border: 1px solid;
+}
+
+#sal1{
+  font-family: futurak;
+  font-weight: lighter;
+  font-size: 52px;
+  color: var(--white);
+  text-align: center;
+  margin-top: 130px;
+  justify-content: center;
+}
+
+#par2{
+  color: var(--white);
+  text-align: center;
+  justify-content: center;
+  font-size: 48px;
+}
+#par3{
+  color: var(--text);
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:640px) {
+    body {
+      background-color: lightblue;
+      #home{
+        display: none;
+      }
+      #about{
+        display: none;
+      }
+      #pub{
+        display: none;
+      }
+      #button2{
+        display: none;
+      }
+      #button1{
+        justify-content: space-around;
+        background-color: red;
+      }
+      #img1{
+        align-items: center;
+        justify-content: center;
+      }
+      .i{
+        display: block;
+        font-size: large;
+      }
+      #maindiv{
+        
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+      #divbtn{
+        display: none;
+      }
+      #hamburger{
+        display: block;
+        color: #ffff;
+        top: 80px;
+      
+        
+      }
+      #img1{
+        width: 84px;
+        align-items: center;
+        justify-content: center;
+      }
+      #button2{
+        padding: 15px 20px;
+        border-radius: 25px;
+      }
+    }
