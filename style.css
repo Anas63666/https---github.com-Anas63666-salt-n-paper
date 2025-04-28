@@ -223,9 +223,16 @@ border: 1px solid;
   font-size: 16px;
   margin-top: 10px;
 }
+#Islamabad{
+  color: var(--red);
+}
 
-
-
+#main{
+  display: flex;
+  justify-content: space-evenly;
+  
+  padding: 40px 0px;/
+}
 
 
 
