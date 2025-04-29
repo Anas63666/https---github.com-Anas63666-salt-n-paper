@@ -273,6 +273,156 @@ border: 1px solid;
 
 
 
+#Express{
+  flex-wrap: wrap;
+}
+
+#Pepper{
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+#flex-row{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+
+}
+
+
+
+
+.text-red{
+    color: var(--red);
+}
+
+p{
+  padding: 8px 8px;
+  color: rgb(170, 170, 170);
+  font-family: 'Apercu Pro', sans-serif;
+
+}
+
+
+
+.images-hotels{
+    width: 320px;
+    height: 250px;
+}
+
+
+
+
+#sar1{
+  margin-top: 10px;
+  padding: 15px 50px;
+  border-radius: 15px;
+  color: var(--white);
+  background-color: transparent;
+border: 1px solid;
+
+
+}
+#jhe1{
+margin-top: 10px;
+padding: 15px 50px;
+  border-radius: 15px;
+  color: var(--white);
+  background-color: transparent;
+border: 1px solid;
+
+
+
+}
+
+#fai1{
+  margin-top: 10px;
+  padding: 15px 50px;
+  border-radius: 15px;
+  color: var(--white);
+  background-color: transparent;
+border: 1px solid;
+
+
+
+
+}
+
+
+
+
+
+
+.Express-saltn{
+
+  font-family: futurak;
+  font-weight: lighter;
+  font-size: 25px}
+
+
+
+  #Gujranwala-row{
+    display: flex;
+    padding: 30px 0px;
+    
+}
+
+#Gujranwala-text{
+  padding: 50px 5px;
+}
+
+
+#Village-Franchise{
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+.Village-image{
+  width: 538px;
+  height: 309px;
+}
+
+
+    
+}
+
+#Gujranwala-text{
+    padding: 50px 5px;
+}
+
+#Village-Franchise{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Village-image{
+  width: 538px;
+  height: 309px;
+}
+
+
+.Gujranwala-btn{
+  background-color: rgb(18, 208, 18);
+  border: none;
+  color: var(--white);
+  border-radius: 25px;
+  padding: 17px 20px;
+  margin: 20px 10px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
 
 
     @media only screen and (max-width: 540px) {
