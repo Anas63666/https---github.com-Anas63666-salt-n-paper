@@ -278,7 +278,7 @@ border: 1px solid;
 
 
 
-@media only screen and (max-width:540px) {
+@media only screen and (max-width:440px) {
     body {
       background-color: lightblue;
       #home{
