@@ -272,7 +272,7 @@ border: 1px solid;
 }
 
 
-
+.picislamabad
 
 
 
@@ -329,5 +329,8 @@ border: 1px solid;
       #button2{
         padding: 15px 20px;
         border-radius: 25px;
+      }
+      .picislamabad{
+        width: 100%;
       }
     }
