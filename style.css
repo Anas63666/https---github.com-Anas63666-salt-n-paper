@@ -272,65 +272,88 @@ border: 1px solid;
 }
 
 
-.picislamabad
 
 
 
+    @media only screen and (max-width: 600px) {
+      body {
+        background-color: lightblue;
+      }
 
-
-@media only screen and (max-width:540px) {
-    body {
-      background-color: lightblue;
-      #home{
-        display: none;
-      }
-      #about{
-        display: none;
-      }
-      #pub{
-        display: none;
-      }
-      #button2{
-        display: none;
-      }
-      #button1{
-        justify-content: space-around;
-        background-color: red;
-      }
-      #img1{
-        align-items: center;
-        justify-content: center;
-      }
-      .i{
-        display: block;
-        font-size: large;
-      }
-      #maindiv{
+      body {
+        background-color: lightblue;}
+        #home{
+          display: none;
+        }
+        #about{
+          display: none;
+        }
+        #pub{
+          display: none;
+        }
+        #button2{
+          display: none;
+        }
+        #button1{
+          justify-content: space-around;
+          background-color: red;
+        }
+        #img1{
+          align-items: center;
+          justify-content: center;
+        }
+        .i{
+          display: block;
+          font-size: large;
+        }
+        #maindiv{
+          
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+        }
+        #divbtn{
+          display: none;
+        }
+        #hamburger{
+          display: block;
+          color: #ffff;
+          top: 80px;
         
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-      }
-      #divbtn{
-        display: none;
-      }
-      #hamburger{
-        display: block;
-        color: #ffff;
-        top: 80px;
-      
-        
-      }
-      #img1{
-        width: 84px;
-        align-items: center;
-        justify-content: center;
-      }
-      #button2{
-        padding: 15px 20px;
-        border-radius: 25px;
-      }
-      .picislamabad{
-        width: 100%;
-      }
+          
+        }
+        #img1{
+          width: 84px;
+          align-items: center;
+          justify-content: center;
+        }
+        #button2{
+          padding: 15px 20px;
+          border-radius: 25px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
