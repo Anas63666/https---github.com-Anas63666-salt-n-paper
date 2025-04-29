@@ -220,6 +220,7 @@ border: 1px solid;
 #par3{
   color: var(--text);
   text-align: center;
+  justify-items: center;
   font-size: 16px;
   margin-top: 10px;
 }
@@ -230,9 +231,46 @@ border: 1px solid;
 #main{
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   
   padding: 40px 0px;/
 }
+.franchise-saltn{
+  
+  font-family: futurak;
+  font-weight: lighter;
+  font-size: 32px;
+  color: var(--white);
+}
+#par4{
+  color: var(--white);
+  font-size: 32px;
+  margin-top: 20px;
+
+}
+#isl-ad{
+  color: var(--white);
+  font-size: 16px;
+  margin-top: 20px;
+
+}
+#isl-ph{
+  color: var(--white);
+  font-size: 16px;
+  margin-top: 20px;
+}
+#main1{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+    gap: 30px;
+  padding: 40px 0px;/
+}
+
+#fasalabad{
+  color: var(--red);
+}
+
 
 
 
