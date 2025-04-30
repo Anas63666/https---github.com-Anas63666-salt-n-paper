@@ -375,12 +375,6 @@ border: 1px solid;
 }
 
 
-#Village-Franchise{
-  text-align: center;
-  margin-top: 50px;
-  font-family: futurak;
-  color: var(--white);
-}
 
 
 .Village-image{
@@ -421,9 +415,72 @@ border: 1px solid;
   justify-content:center ;
 
 }
+#Pepper{
+  color: var(--white);
+  text-align: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 50px;
+  font-family: futurak;
+  
+
+  
+
+}
+.futurak-font{
+  
+  
+  font-family: futurak;
+  font-weight: lighter;
+  font-size: 52px}
 
 
+  #Social-feed{
+    text-align: center;
+    margin: 30px;
+}
 
+
+#Social-feed-image{
+  display: flex;
+  gap: 30px;
+  padding: 40px 0px;
+  flex-wrap: wrap;
+}
+.Social-image{
+  width: 230px;
+  height: 230px;
+}
+#main-footer{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+h3{
+  padding: 0px 8px 10px;
+  
+}
+
+.footer-img{
+  width: 140px;
+  display: flex;
+  
+}
+
+
+#footer-para{
+  width: 320px;
+ 
+}
+
+#food-cout{
+  width: 250px;
+}
+
+
+/* footer end */
 
 
 
@@ -449,6 +506,11 @@ border: 1px solid;
         #button1{
           justify-content: space-around;
           background-color: red;
+          padding: 5px 10px;
+          border-radius: 15px;
+          color: var(--white);
+          
+        border: 1px solid;
         }
         #img1{
           align-items: center;
@@ -479,8 +541,10 @@ border: 1px solid;
           align-items: center;
           justify-content: center;
         }
-        #button2{
-          padding: 15px 20px;
-          border-radius: 25px;
-        }
+      
+
+
+
+
+
       }
