@@ -378,6 +378,8 @@ border: 1px solid;
 #Village-Franchise{
   text-align: center;
   margin-top: 50px;
+  font-family: futurak;
+  color: var(--white);
 }
 
 
@@ -388,21 +390,14 @@ border: 1px solid;
 
 
     
-}
+
 
 #Gujranwala-text{
     padding: 50px 5px;
 }
 
-#Village-Franchise{
-    text-align: center;
-    margin-top: 50px;
-}
 
-.Village-image{
-  width: 538px;
-  height: 309px;
-}
+
 
 
 .Gujranwala-btn{
@@ -417,8 +412,15 @@ border: 1px solid;
 
 
 
+#par5{
+  font-size: 48px;
+}
+#salt1{
+  color: var(--white);
+  text-align: center;
+  justify-content:center ;
 
-
+}
 
 
 
