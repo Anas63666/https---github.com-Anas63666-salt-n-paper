@@ -1,0 +1,102 @@
+
+
+:root {
+    --black: #000000;
+    --red: #ed1c24;
+    --white: #ffffff;
+    --text: #ffffff;
+  }
+  
+
+
+
+#child1 img {
+width: 550px;
+height: 580px;
+background:var(--black);
+margin-top: 50px;
+border: 1px solid var(--text);
+}
+#parent{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 20px;
+    justify-content: space-around
+}
+#child2 img {
+    width: 550px;
+    height: 580px;
+    background:black;
+    margin-top: 50px;
+    gap: 10px;
+    border: 1px  solid var(--text);
+    }
+    .branches {
+      background-color: #000; /* سیاہ بیک گراؤنڈ */
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    
+    .branches h2 {
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+    
+    .branch {
+      margin-bottom: 30px;
+    }
+    
+    .branch h3 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+    
+    .branch p {
+      margin: 5px 0;
+      font-size: 16px;
+    }
+    
+
+css
+/* footer start */
+#main-footer{
+    margin: 70px;
+    display: flex;
+   
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h3{
+    padding: 0px 8px 10px;
+    
+}
+
+.footer-img{
+    width: 140px;
+    display: flex;
+    
+}
+
+
+#footer-para{
+    width: 320px;
+   
+}
+
+#food-cout{
+    width: 250px;
+}
+
+#Powered-by{
+    display: flex;
+    color: rgb(170, 170, 170);
+    justify-content: center;
+    gap: 55%;
+    font-family: 'Apercu Pro', sans-serif;
+}
+
+
+/* footer end */

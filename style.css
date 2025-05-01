@@ -25,7 +25,15 @@
 
 
 
-
+#home{
+  padding: 15px 20px ;
+  background-color: transparent;
+  border-radius: 25px;
+  color: var(--white);
+    background-color: transparent;
+  border: 1px solid white ;
+  
+}
 
 
 
@@ -233,6 +241,7 @@ border: 1px solid;
   justify-content: space-evenly;
   flex-wrap: wrap;
   
+  
   padding: 40px 0px;/
 }
 .franchise-saltn{
@@ -292,7 +301,17 @@ border: 1px solid;
 
 }
 
+#Order-btn{
+padding: 15px 20px ;
+background-color: transparent;
+border-radius: 25px;
+color: var(--white);
+  background-color: transparent;
+border: 1px solid white ;
 
+
+
+}
 
 
 .text-red{
@@ -451,9 +470,27 @@ border: 1px solid;
   width: 230px;
   height: 230px;
 }
+
+
+
+
+
+
+
+
+a{
+  text-decoration: none;
+
+}
+#ham{
+  display: none;
+}
+
+/* footer start */
 #main-footer{
-  margin-top: 50px;
+  margin: 70px;
   display: flex;
+ 
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -479,72 +516,69 @@ h3{
   width: 250px;
 }
 
+#Powered-by{
+  display: flex;
+  color: rgb(170, 170, 170);
+  justify-content: center;
+  gap: 55%;
+  font-family: 'Apercu Pro', sans-serif;
+}
+
 
 /* footer end */
 
 
 
-    @media only screen and (max-width: 540px) {
-      body {
-        background-color: lightblue;
-      }
 
-      body {
-        background-color: lightblue;}
-        #home{
-          display: none;
-        }
-        #about{
-          display: none;
-        }
-        #pub{
-          display: none;
-        }
-        #button2{
-          display: none;
-        }
-        #button1{
-          justify-content: space-around;
-          background-color: red;
-          padding: 5px 10px;
-          border-radius: 15px;
-          color: var(--white);
-          
-        border: 1px solid;
-        }
-        #img1{
-          align-items: center;
-          justify-content: center;
-        }
-        .i{
-          display: block;
-          font-size: large;
-        }
-        #maindiv{
-          
-          justify-content: center;
-          align-items: center;
-          gap: 20px;
-        }
-        #divbtn{
-          display: none;
-        }
-        #hamburger{
-          display: block;
-          color: #ffff;
-          top: 80px;
-        
-          
-        }
-        #img1{
-          width: 84px;
-          align-items: center;
-          justify-content: center;
-        }
+@media only screen and (max-width: 540px) {
+  
+  body {
+    background-color: var(--black);}
+    #home{
+      display: none;
+    }
+    #about{
+      display: none;
+    }
+    #pub{
+      display: none;
+    }
+    #button2{
+      display: none;
+    }
+    #button1{
+      justify-content: space-around;
+      background-color: red;
+      padding: 5px 10px;
+      border-radius: 15px;
+      color: var(--white);
       
-
-
-
-
-
-      }
+    border: 1px solid;
+    }
+    #img1{
+      align-items: center;
+      justify-content: center;
+    }
+    .i{
+      display: block;
+      font-size: large;
+    }
+    #maindiv{
+      
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    #divbtn{
+      display: none;
+    }
+    #ham{
+      display: block;
+      color: #ffff;
+      top: 80px;
+    
+      
+    }
+  
+  
+}
