@@ -6,40 +6,66 @@
     --white: #ffffff;
     --text: #ffffff;
   }
-  
 
-
-
-#child1 img {
-width: 550px;
-height: 580px;
-background:var(--black);
-margin-top: 50px;
-border: 1px solid var(--text);
-transition: .2s;
-}
-#child1:hover{
-  transform: scale(1.1)
-}
-#child2:hover{
-  transform: scale(1.1)
-}
-#parent{
-  justify-content: center;
-  align-items: center;
+  #parent{
+    margin-top: 50px;
     display: flex;
-    flex-wrap: wrap;
-    margin: 10px 20px;
-    justify-content: space-around
+    justify-content: center;
+    gap: 20px;
 }
-#child2 img {
+
+#book-1{
     width: 550px;
     height: 580px;
-    background:black;
-    margin-top: 50px;
-    gap: 10px;
-    border: 1px  solid var(--text);
-    }
+    border:1px  solid gray;
+}
+
+.book-1-img{
+    width: 600px;
+    height: 600px;
+    transition: .2s;
+}
+
+.book-1-img:hover{
+    transform: scale(1.1);
+}
+#book-2{
+    width: 550px;
+    height: 580px;
+    border: 1px solid gray;
+}
+
+.book-2-img{
+    width: 600px;
+    height: 600px;
+    transition: .2s;
+}
+
+.book-2-img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .branches {
+          background-color: #000; 
+          color: white;
+          padding: 50px 20px;
+          text-align: center;
+          font-family: Arial, sans-serif;
+        }
+
     .branches {
       background-color: #000; 
       color: white;
@@ -109,3 +135,73 @@ h3{
 
 
 /* footer end */
+
+
+
+/* media quries start */
+
+
+@media only screen and (max-width: 540px) {
+  
+  body {
+    background-color: var(--black);}
+    #home{
+      display: none;
+    }
+    #about{
+      display: none;
+    }
+    #pub{
+      display: none;
+    }
+    #button2{
+      display: none;
+    }
+    #button1{
+      justify-content: space-around;
+      background-color: red;
+      padding: 5px 10px;
+      border-radius: 15px;
+      color: var(--white);
+      
+    border: 1px solid;
+    }
+    #img1{
+      align-items: center;
+      justify-content: center;
+    }
+    .i{
+      display: block;
+      font-size: large;
+    }
+    #maindiv{
+      
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    #divbtn{
+      display: none;
+    }
+    #ham{
+      display: block;
+      color: #ffff;
+      top: 80px;
+    
+      
+    }
+#child1 img{ width: 100%;
+  height: auto;
+  
+
+}
+#child2 img{ width: 100%;
+  height: auto;
+
+}
+}
+  
+
+/* media quries start */
+
+
