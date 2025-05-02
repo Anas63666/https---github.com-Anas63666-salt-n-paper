@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   
+  
 }
 
 :root {
@@ -230,34 +231,74 @@ p{
 
 
 
+#par5{
+  font-size: 48px;
+}
+#salt1{
+  color: var(--white);
+  text-align: center;
+  justify-content:center ;
 
-#Village-Franchise{
+}
+#Pepper{
+  color: var(--white);
+  text-align: center;
+  flex-wrap: wrap;
   text-align: center;
   margin-top: 50px;
-}
-
-#Gujranwala-row{
-  display: flex;
-  gap: 20px;
-  padding: 30px 11%;
   
+  
+
+  
+
+}
+.futurak-font{
+  
+  
+  font-family: futurak;
+  font-weight: lighter;
+  font-size: 52px}
+
+
+  #Social-feed{
+    text-align: center;
+    margin: 30px;
 }
 
-#Gujranwala-text{
-  padding: 50px 5px;
+
+#Social-feed-image{
+  display: flex;
+  gap: 30px;
+  padding: 40px 0px;
+  flex-wrap: wrap;
+}
+.Social-image{
+  width: 230px;
+  height: 230px;
 }
 
-.Village-image{
-  width: 538px;
-  height: 309px;
+
+
+
+#pub{
+  color: white;
 }
 
 
+
+a{
+  text-decoration: none;
+
+}
+#ham{
+  display: none;
+}
 
 /* footer start */
 #main-footer{
-  margin-top: 50px;
+  margin: 70px;
   display: flex;
+ 
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -283,32 +324,17 @@ h3{
   width: 250px;
 }
 
-
-
-    
-
-
-#Gujranwala-text{
-    padding: 50px 5px;
+#Powered-by{
+  display: flex;
+  color: rgb(170, 170, 170);
+  justify-content: center;
+  gap: 55%;
+  font-family: 'Apercu Pro', sans-serif;
 }
 
 
 
 
-
-.Gujranwala-btn{
-  background-color: rgb(18, 208, 18);
-  border: none;
-  color: var(--white);
-  border-radius: 25px;
-  padding: 17px 20px;
-  margin: 20px 10px;
-  cursor: pointer;
-}
-
-
-
-/* footer end */
 @media(max-width:1024px){
   #menu{
       display: flex;
