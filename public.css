@@ -18,6 +18,8 @@ margin-top: 50px;
 border: 1px solid var(--text);
 }
 #parent{
+  justify-content: center;
+  align-items: center;
     display: flex;
     flex-wrap: wrap;
     margin: 10px 20px;

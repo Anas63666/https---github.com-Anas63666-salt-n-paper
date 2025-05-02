@@ -284,6 +284,30 @@ h3{
 }
 
 
+
+    
+
+
+#Gujranwala-text{
+    padding: 50px 5px;
+}
+
+
+
+
+
+.Gujranwala-btn{
+  background-color: rgb(18, 208, 18);
+  border: none;
+  color: var(--white);
+  border-radius: 25px;
+  padding: 17px 20px;
+  margin: 20px 10px;
+  cursor: pointer;
+}
+
+
+
 /* footer end */
 @media(max-width:1024px){
   #menu{
