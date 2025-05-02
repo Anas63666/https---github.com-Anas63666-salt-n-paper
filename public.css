@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 #book-1{
@@ -190,12 +191,12 @@ h3{
     
       
     }
-#child1 img{ width: 100%;
+#book-1-img{ width: 100%;
   height: auto;
   
 
 }
-#child2 img{ width: 100%;
+#book-2-img{ width: 100%;
   height: auto;
 
 }
